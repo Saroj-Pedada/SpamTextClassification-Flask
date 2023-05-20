@@ -32,7 +32,3 @@ def predict():
     else:
         ans = "Spam"
     return render_template(ind, **locals())
-
-
-if __name__ == "__main__":
-    app.run(host='0.0.0.0',port=1902,debug=False)
